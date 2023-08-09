@@ -8,3 +8,9 @@ body{
     background-color: var(--cor-de-fundo);
     margin: 0;
 }
+@media screen and (min-width:600px) {
+ .container__titulo {
+    background-color: aqua ;
+    text-decoration: none;
+ }    
+}
