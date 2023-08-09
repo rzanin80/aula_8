@@ -4,6 +4,9 @@
     --cor-do-cabecalho:#FFFFFF;
 
 }
+.container__frase{
+    display: none;
+}
 body{
     background-color: var(--cor-de-fundo);
     margin: 0;
@@ -12,7 +15,7 @@ body{
 @media screen and (min-width:600px) {
  .container__titulo {
     background-color: aqua ;
-    display: none;
+    display: block  ;
  }    
 }
 @media screen and (min-width:600px) {
