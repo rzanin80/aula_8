@@ -15,3 +15,9 @@ body{
     display: none;
  }    
 }
+@media screen and (min-width:600px) {
+    .container__titulo {
+       background-color: red;
+       display: block;
+    }    
+   }
